@@ -1,31 +1,31 @@
 # DSCI_6011_02-FINAL-PROJECT by Amani Kambham and Lakshmi Sai Kishore Savarapu
 
-Project: GENDER CLASSIFICATION AND AGE PREDICTION USING DEEP LEARNING
+# Project: GENDER CLASSIFICATION AND AGE PREDICTION USING DEEP LEARNING
 
 
-Overview:
+# Overview:
 
 This Deep Learning project aims to identify the gender of the individual in a given image and also predict the age of that particular individual in the given images using various deep learning architectures. The project explores and compares the performance of two different models, Convolutional Neural Network(CNN) and Visual Geometry Group 16(VGG16). Another objective of this project is to build more accurate models by training them with image filtered dataset images. Image Filtering is a pre processing technique performed to remove noise from dataset images.
 
 
-Project Components:
+# Project Components:
 
 
-Dataset:
+# Dataset:
 
 5 V’s of Data; Volume, Variety, Velocity, Veracity, Value are checked to ensure right set of data is collected for the problem statement. The dataset consists of 20000 face images with age, gender, ethnicity as the features. It has an age span of 0 to 116 years. It is a structured, labeled dataset.
 
 Dataset link: https://susanqq.github.io/UTKFace/
 
 
-Pre-Processing of Dataset images:
+# Pre-Processing of Dataset images:
 
 Noise Filtering dataset images using various filters like Gaussian, mean, median, and Wiener filters is a common preprocessing step in many image processing and computer vision tasks. These filters can help reduce noise, improve image quality, or prepare images for further processing like feature extraction or classification.
 
 Evaluating the effectiveness of noise filtering techniques on images is crucial to determine how well the filters preserve image details while removing noise. The Structural Similarity Index (SSIM), Mean Squared Error (MSE), and Peak Signal-to-Noise Ratio (PSNR) are commonly used metrics for this purpose.
 
 
-Deep Learning Models:
+# Deep Learning Models:
 
 CNN Model: CNNs, or Convolutional Neural Networks, are a class of deep neural networks that are especially effective in visual imagery analysis. They have been successfully applied in various tasks such as image and video recognition, image classification, medical image analysis, and, gender classification and age prediction.
 
@@ -34,7 +34,7 @@ VGG16 Model weights can be downloaded online and can be imported to the notebook
 
 
 
-Process (step by step):
+# Process (step by step):
 
 The implementation is done on Kaggle platform.
 
@@ -66,6 +66,6 @@ Comparing the performance of all the models for both the architectures and check
 
 
 
-Conclusion:
+# Conclusion:
 
 This project offers a comprehensive exploration of Gender Classification and Age Prediction using deep learning, providing a valuable resource for researchers and students interested in computer vision, deep learning, and image processing. The comparison of different models offers insights into their strengths and weaknesses, guiding future research in the field. The well-documented code and usage instructions ensure accessibility and reproducibility for other researchers and enthusiasts.
